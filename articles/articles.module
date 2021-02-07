@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function articles_theme($existing, $type, $theme, $path) {
+    return [
+        'article_list' => [
+            'variables' => [
+                'articles'  => NULL,          
+            ],
+        ],
+    ];
+}
